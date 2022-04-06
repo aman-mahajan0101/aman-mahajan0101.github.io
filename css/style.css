@@ -1,0 +1,255 @@
+/* import fonts from fonts.css file */
+@import url(./fonts.css);
+
+/* css variables */
+@import url(./partials/_variables.css);
+
+/* import global styling */
+@import url(./partials/_global.css);
+
+/* start navigation */
+
+.header_area .main-menu .navbar .navbar-brand {
+  padding: 0 2rem 0 5rem;
+}
+
+.header_area .main-menu .navbar {
+  padding: 1rem 20rem;
+}
+
+.header_area .main-menu .nav-item .nav-link {
+  font: normal 500 15px/2px var(--roboto);
+  text-transform: uppercase;
+  padding: 1.7rem;
+  color: var(--title-color);
+}
+
+.header_area .main-menu .navbar-nav .active a {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a:hover {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* end navigation */
+
+/* Banner Area */
+
+.site-title {
+  margin-top: 25vh;
+}
+
+.site-main .site-banner .site-title h3 {
+  margin-top: 50%;
+  padding-top: 35%;
+  font-weight: 500;
+}
+
+.site-main .site-banner .site-title h3::after {
+  content: " ";
+  height: 2px;
+  width: 18vw;
+  background: black;
+  display: inline-block;
+  margin-left: 5%;
+  transform: translateY(-10px);
+}
+
+.site-main .site-banner .site-title h1 {
+  font-size: 5rem;
+}
+
+.site-main .site-banner .site-title h4 {
+  font-size: 1.5rem;
+}
+
+.site-main .site-banner .banner-image > img {
+  padding: 7rem 0;
+  width: 90rem;
+}
+
+.site-text {
+  font-style: italic;
+  /* color: rgb(2, 246, 250); */
+}
+
+/* End Banner Area */
+
+/* Start About Area */
+
+.site-main .about-area {
+  padding: 8rem 5rem;
+}
+
+.site-main .about-area .about-title h2 > span {
+  display: block;
+  font: normal bold 49px/ 60px var(--roboto);
+  letter-spacing: 21px;
+}
+
+.site-main .about-area .about-title .paragraph > p {
+  padding: 0.4rem 0;
+}
+
+p.about-text {
+  font-size: large;
+}
+
+/* End About Area */
+
+/* Services Area */
+
+.site-main .services-area {
+  padding: 7rem 2rem;
+}
+
+.site-main .services-area .services-title {
+  padding: 0 14rem;
+}
+
+.site-main .services-area .services-title h1 {
+  font-size: 35px;
+}
+
+.site-main > .services-area .services {
+  background: rgba(248, 252, 253, 0.973);
+  padding: 2rem 0;
+  width: 16rem;
+  margin: 5rem 0.5rem;
+  transition: box-shadow 0.7s ease;
+}
+
+.site-main > .services-area .services:hover {
+  box-shadow: var(--box-shadow);
+}
+
+/* End Services Area */
+
+/* Project Area */
+
+.site-main .project-area {
+  padding: 4rem 0;
+}
+
+.site-main .project-area .button-group button {
+  background: transparent;
+  border: none;
+  font: small-caps 500 16px/130px var(--roboto);
+  text-transform: uppercase;
+}
+
+.site-main .project-area .button-group button + button {
+  padding-left: 3rem;
+}
+
+.site-main .project-area .grid .our-project > .title h4 {
+  font: normal 700 25px/12px var(--roboto);
+}
+
+.site-main .project-area .grid .our-project .img a:hover img {
+  filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+}
+.btn-href {
+  position: relative;
+  bottom: 40px;
+  border-radius: 15px;
+  background-color: rgb(244, 254, 167);
+}
+
+/* End Project Area */
+
+/*Contact me*/
+
+.containerr-fluid {
+  background-color: #010449;
+}
+
+.msg-form {
+  background-color: white;
+  padding: 20px;
+}
+
+.pad-icon {
+  padding-top: 50px;
+  padding-left: 20px;
+}
+
+.pad-icon a {
+  text-decoration: none;
+  margin-right: 40px;
+}
+
+.input-group input:focus {
+  border: 1px solid blue;
+}
+
+.pad-icon a:active {
+  height: 30px;
+  width: 30px;
+  background-color: #0080ff;
+  border-radius: 100%;
+}
+
+.links {
+  padding-top: 50px;
+  width: 50%;
+}
+
+#bordering a:active {
+  border: 1px solid #0080ff;
+}
+
+@media (min-width: 568px) {
+  .containerr-fluid {
+    margin: 100px 30px;
+    width: 96%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width: 567px) {
+  .containerr-fluid {
+    margin: 10px 10px;
+    width: 94%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .pad {
+    padding-top: 20px;
+  }
+}
+
+/* End Contact me */
+
+/* Footer Area */
+
+footer.footer-area {
+  padding: 5rem 0;
+  background: url(../img/footer-bg.png) no-repeat;
+}
+
+footer.footer-area .social h5 {
+  font: normal 500 23px/ 30px var(--roboto);
+}
+
+footer.footer-area .social a > i {
+  font-size: 27px;
+  padding: 2rem;
+  /* color: var(--social-media); */
+  color: rgb(117, 107, 107);
+}
+
+footer.footer-area .social a:hover > i {
+  color: var(--primary-color);
+}
+
+/* End Footer */
