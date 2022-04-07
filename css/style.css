@@ -363,14 +363,12 @@ p.about-text {
   }
 
   .element-item {
-    margin-left: 20%;
+    display: flex;
+    justify-content: space-around;
   }
   .element-item1 {
-    margin-left: 10%;
-  }
-
-  .services-item {
-    margin-left: 20%;
+    display: flex;
+    justify-content: space-around;
   }
 }
 
