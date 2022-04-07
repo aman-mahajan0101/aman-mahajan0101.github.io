@@ -353,6 +353,16 @@ p.about-text {
   }
 }
 
+@media (max-width: 980px) {
+  .img-hide {
+    display: none;
+  }
+
+  .about-title .about-text {
+    margin-left: 50px;
+  }
+}
+
 /* End Contact me */
 
 /* Footer Area */
