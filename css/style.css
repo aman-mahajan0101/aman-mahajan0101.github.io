@@ -361,6 +361,17 @@ p.about-text {
   .about-title .about-text {
     margin-left: 50px;
   }
+
+  .element-item {
+    margin-left: 20%;
+  }
+  .element-item1 {
+    margin-left: 10%;
+  }
+
+  .services-item {
+    margin-left: 20%;
+  }
 }
 
 /* End Contact me */
