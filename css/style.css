@@ -285,7 +285,7 @@ p.about-text {
   position: relative;
   bottom: 40px;
   border-radius: 15px;
-  background-color: rgb(244, 254, 167);
+  background-color: #a5d8dd;
 }
 
 /* End Project Area */
@@ -368,7 +368,7 @@ p.about-text {
   }
   .element-item1 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 }
 
