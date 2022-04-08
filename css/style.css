@@ -331,6 +331,25 @@ p.about-text {
   border: 1px solid #0080ff;
 }
 
+@media (max-width: 412px) {
+  .img-hide {
+    display: none;
+  }
+
+  .about-title .about-text {
+    margin-left: 50px;
+  }
+
+  .element-item {
+    display: flex;
+    justify-content: center;
+  }
+  .element-item1 {
+    display: flex;
+    justify-content: center;
+  }
+}
+
 @media (min-width: 568px) {
   .containerr-fluid {
     margin: 100px 30px;
