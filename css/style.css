@@ -331,6 +331,8 @@ p.about-text {
   border: 1px solid #0080ff;
 }
 
+/*End Contact me*/
+
 @media (max-width: 412px) {
   .img-hide {
     display: none;
@@ -347,6 +349,11 @@ p.about-text {
   .element-item1 {
     display: flex;
     justify-content: center;
+  }
+
+  #bordering {
+    display: flex;
+    flex-direction: column;
   }
 }
 
@@ -388,6 +395,10 @@ p.about-text {
   .element-item1 {
     display: flex;
     justify-content: space-between;
+  }
+  #bordering {
+    display: flex;
+    flex-direction: column;
   }
 }
 
