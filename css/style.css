@@ -130,6 +130,22 @@ button:active button:hover .btn:active,
   z-index: 999;
   transition: background 1s ease;
 }
+
+.btn-download {
+  padding: 0.8rem 2.2rem;
+  font: normal 500 16px/20px var(--roboto);
+  position: relative;
+  border: 3px solid transparent;
+  border-radius: 4px;
+  font-size: 18px;
+}
+
+.btn-download:hover {
+  background: whitesmoke;
+  background-clip: padding-box;
+  color: black;
+}
+
 /*End Global CSS*/
 
 /* start navigation */
@@ -166,6 +182,10 @@ button:active button:hover .btn:active,
 /* end navigation */
 
 /* Banner Area */
+
+.hire-me {
+  color: #ffff00;
+}
 
 .site-title {
   margin-top: 25vh;
